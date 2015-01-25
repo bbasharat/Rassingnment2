@@ -1,11 +1,11 @@
 ##pair of functions that cache the inverse of a matrix
 ## makeCacheMatrix: This function creates a special "matrix" object that can cache its inverse.which is really a list containing a function to
-set the value of the matrix
-get the value of the matrix
-set the value of the inverse of matrix
-get the value of the inverse o matrix
+##set the value of the matrix
+##get the value of the matrix
+##set the value of the inverse of matrix
+##get the value of the inverse o matrix
 
-## Write a short comment describing this function
+
 
 makeCacheMatrix <- function(x=matrix()) {
     m <- NULL
